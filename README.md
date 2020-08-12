@@ -44,3 +44,19 @@ https://git-scm.com/download
     * `git remote -v` // mostra repositórios remotos.
     * `git push` // envia alterações locais para o repositório remoto.
     * `git push -u origin master` // cria a branch master do repositório remoto.
+
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time.
+    * `git clone` // clonar um projeto / repositório
+- [x] Você precisa resolver um conflito.
+- [x] Antes de enviar enviar a resolução, precisamos atualizar o projeto local.
+
+    * `git pull` // puxa do repositório remoto alterações que poção estar sendo feitas por outros membros da equipe
+
+- [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+
+    * `git checkout` 'chave do commit desejado' `-- nome do arquivo`
+
+- [x] Você precisa recuperar algo deletado.
+
+    * `git checkout -- nome do arquivo` // caso não tenha criado um ponto na linha do tempo apos deletar
+    * `git checkout` 'chave do commit desejado' `-- nome do arquivo`
